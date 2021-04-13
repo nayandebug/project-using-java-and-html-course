@@ -1,0 +1,16 @@
+title: Project using java and html
+description: Webpage using java and html of student data base
+template:
+  repo: project-using-java-and-html-template
+  name: project-using-java-and-html
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
